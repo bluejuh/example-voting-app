@@ -1,6 +1,8 @@
 Example Voting App
 =========
 
+This is a sample voting app.
+
 A simple distributed application running across multiple Docker containers.
 
 Getting started
