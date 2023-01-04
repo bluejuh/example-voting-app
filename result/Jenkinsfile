@@ -26,6 +26,7 @@ pipeline {
             steps{
                 echo 'Running Tests on Result NodeJS Application'
                 dir('result'){
+                    sh 'pwd'
                     sh 'npm install'
                     sh 'npm test'
                 }
